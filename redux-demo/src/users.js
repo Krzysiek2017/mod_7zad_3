@@ -1,3 +1,3 @@
 function users(state = [], action) {
-    return state;
+  return state;
 }

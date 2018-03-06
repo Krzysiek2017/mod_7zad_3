@@ -13,7 +13,7 @@ function comments(state = [], action) {
           text: action.text,
           votes: 0
         },
-        ...state.comments
+        ...state
       ];
 
     case EDIT_COMMENT:
