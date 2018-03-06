@@ -1,3 +1,5 @@
-export function users(state = [], action) {
+function users(state = [], action) {
   return state;
 }
+
+export default users;
